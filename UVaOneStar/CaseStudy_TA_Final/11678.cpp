@@ -6,6 +6,8 @@ int main(){
         cin>>a>>b;
         if(a==0 && b==0)
 			break;
+        an=0;
+        bn=0;
         int arrA[a]={0};
         int arrB[b]={0};
         for(int i=0; i<a; i++){
