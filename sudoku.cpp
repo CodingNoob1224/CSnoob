@@ -10,22 +10,22 @@ void input(){
 	return;
 }
 		
-bool check(int arr[][], int num, int row, int col){
-	switch row{
+bool check(int arr[9][9], int num, int row, int col){
+	switch (row){
 		case 0 ... 2:
-			switch col{
+			switch (col){
 				case 0 ... 2:
 				case 3 ... 5:
 				case 6 ... 8:
 			}
 		case 3 ... 5:
-			switch col{
+			switch (col){
 				case 0 ... 2:
 				case 3 ... 5:
 				case 6 ... 8:
 			}
 		case 6 ... 8:
-			switch col{
+			switch (col){
 				case 0 ... 2:
 				case 3 ... 5:
 				case 6 ... 8:
